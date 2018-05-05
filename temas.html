@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elegir Temas</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto|Alfa+Slab+One|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./temas.css">
+</head>
+<body>
+
+    <section id="root">
+        <nav class="navbar is-white" role="navigation">
+            <div class="container">
+                <div class="navbar-brand">
+                    <img src="./logo-udi.png" alt="Logo UDI" id="logoUdi">
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <div class="navbar-start">
+                        <div class="navbar-item">
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a href="#" class="navbar-item is-size-5 itemMenu">Registrarse</a>
+                        <a href="#" @click="showLoginModal = true" class="navbar-item has-text-primary is-size-5 itemMenu">Iniciar sesión</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        
+        <hr>
+
+
+        <section id="main-content">
+
+            <div class="container">
+
+                <section class="hero is-primary">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 class="title has-text-centered">
+                                ¿Con qué tema te gustaría empezar?
+                            </h1>
+                            
+                        </div>
+                    </div>
+                </section><hr>
+
+                <div class="columns">
+                    <div class="column is-6">
+                        <div class="panel">
+                            <p class="panel-heading has-background-primary has-text-white">
+                                Pilas
+                            </p>
+                           
+                            <p class="panel-block">
+                                <span class="panel-icon">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                </span>
+                                8 videos (1 por cada lección, 1 de introducción)
+                            </p>
+                            <p class="panel-block">
+                                <span class="panel-icon">
+                                    <i class="fas fa-book" aria-hidden="true"></i>
+                                </span>
+                                7 Lecciones (Con Material de apoyo adicional en cada lección)
+                            </p>
+                            <p class="panel-block">
+                                <span class="panel-icon">
+                                    <i class="fas fa-keyboard" aria-hidden="true"></i>
+                                </span>
+                                10 Prácticas (1 por cada lección, 3 extras)
+                            </p>
+                          
+                            <div class="panel-block">
+                                <a href="./curso.html" class="button is-primary is-outlined is-fullwidth">
+                                    Ingresar a este curso
+                                </a>
+                            </div>
+                        </div>
+                        <div class="panel">
+                            <p class="panel-heading has-background-primary has-text-white">
+                                Colas
+                            </p>
+                           
+                            <p class="panel-block">
+                                <span class="panel-icon">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i>
+                                </span>
+                                8 videos (1 por cada lección, 1 de introducción)
+                            </p>
+                            <p class="panel-block">
+                                <span class="panel-icon">
+                                    <i class="fas fa-book" aria-hidden="true"></i>
+                                </span>
+                                7 Lecciones (Con Material de apoyo adicional en cada lección)
+                            </p>
+                            <p class="panel-block">
+                                <span class="panel-icon">
+                                    <i class="fas fa-keyboard" aria-hidden="true"></i>
+                                </span>
+                                8 Prácticas (1 por cada lección, 1 extra)
+                            </p>
+                          
+                            <div class="panel-block">
+                                <a href="./curso.html" class="button is-primary is-outlined is-fullwidth">
+                                    Ingresar a este curso
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-5">
+                      <figure>
+                          <img src="./imagen_temas.jpg" alt="Temas">
+                      </figure>
+                    </div>
+                </div>
+            </div>
+
+ 
+        </section>
+
+    </section>
+
+    <footer>
+    
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <p class="is-size-3 has-text-centered" id="pinfo3">Puedes suscribirte a las novedades de la plataforma, quisieras?</p>
+                </div>
+                <div class="column is-offset-1"></div>
+                <div class="column is-7">
+                    <form>
+                        <div class="field has-addons">
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input  is-large" type="email" placeholder="Ingresa tu correo">
+                                <span class="icon is-medium is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span class="icon is-medium is-right">
+                                    <i class="fas fa-check"></i>
+                                </span>
+                            </div>
+                            <div class="control">
+                                <a class="button is-primary is-large">
+                                    Enviar
+                                </a>
+                            </div>
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container">
+    
+        </div>
+    
+    </footer>
+
+    
+</body>
+</html>
