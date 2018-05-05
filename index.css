@@ -1,0 +1,125 @@
+h1{
+    font-family: 'Alfa Slab One',cursive;
+
+}
+
+h2{
+    font-family: 'Montserrat',sans-serif;
+}
+
+footer{
+    margin-top: 100px;
+    background: #e2e4e7;
+
+}
+
+footer form .button
+{
+    padding: 7px 20px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+}
+
+#logoUdi{
+    width: 312px;
+    height: 59px;
+    margin-top: 10px;
+}
+
+#p1{
+    font-family:'Montserrat',sans-serif;
+    line-height: 1.4;
+    color: #919499;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#btnGetStarted,#btnIntro{
+        font-family: 'Montserrat',sans-serif;
+        font-weight: bolder;
+}
+
+#btnIntro{
+    border-width: 2px;
+}
+
+#imgIndex{
+    width: 645px;
+    height: 469px;
+}
+
+#imgIndex2{
+    width: 600px;
+    height: 500px;
+}
+
+#pinfo1,#pinfo3{
+    font-family:'Montserrat',sans-serif;
+    line-height: 1.2;
+    color: #4d545d;
+    font-weight: bold;
+}
+
+#pinfo2{
+    font-family:'Montserrat',
+    sans-serif;
+    line-height: 1.4;
+    color: #919499;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.itemMenu{  
+    font-family: 'Roboto',cursive;
+
+    font-weight: 700;
+   
+}
+
+.training {
+    margin-bottom: 40px;
+}
+
+.sub2{
+    color: #4d545d;
+    font-family:'Montserrat',sans-serif;
+    font-weight: bold;   
+}
+
+li{
+     font-family:'Montserrat',
+     sans-serif;
+     line-height: 1.2;
+    color: #919499;
+     
+     font-weight: bold;
+}
+
+.modal-card{
+    width: 450px;
+}
+
+.modal-card input{
+    margin-bottom: 20px;
+    font-family: 'Roboto',cursive;
+    font-weight: bold;
+    
+}
+.modal-card button{
+    width: 100%;
+}
+
+.modal-card .modal-card-foot a {
+    margin-right: auto;
+     font-family:'Montserrat';
+     line-height: 1.2;
+     color: #919499;
+}
+
+.modal-card header p{
+    font-family:'Montserrat';
+    line-height: 1.2;
+    color: #919499;
+
+    
+}
