@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Iniciar Sesión</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto|Alfa+Slab+One|Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+<link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+<section id="root">
+
+   
+    <nav class="navbar is-white" role="navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <img src="./logo-udi.png" alt="Logo UDI" id="logoUdi">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <div class="navbar-item">
+                    </div>
+                    </div>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <a href="#" class="navbar-item is-size-5 itemMenu">Registrarse</a>
+                        <a href="#" @click="showLoginModal = true" class="navbar-item has-text-primary is-size-5 itemMenu">Iniciar sesión</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+   <hr>
+
+    <section class="header">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-10 is-offset-1">
+                    <h2 class="is-size-2 has-text-centered is-capitalized">Una manera sencilla para el aprendizaje de <strong>Pilas</strong> y <strong>Colas</strong>!</h2>
+                    <p class="has-text-centered" id="p1">Aprende de forma progresiva por medio de ejercicios prácticos los conceptos y fundamentos de los temas. Muchos videotutoriales aburren, estos no. Listo para comenzar? </p>
+                   
+                </div>
+            </div>
+            <div class="columns has-text-centered">
+                    <div class="column is-10 is-offset-1">
+                        <div>
+                            <a href="./temas.html" class="button is-primary is-medium" id="btnGetStarted">Empezar</a>
+                            <a href="" class="button is-warning is-outlined is-medium" id="btnIntro">Introducción</a>
+                        </div>
+                    </div>
+                   
+            </div>
+            <div class="columns has-text-centered">
+                    <div class="column is-10 is-offset-1">
+                        <img src="./imagen_index2.jpg" alt="" id="imgIndex">
+                    </div>
+                   
+            </div>
+        </div>
+    </section><hr>
+
+
+    <!-- Login Form-->
+   
+       <modal v-if="showLoginModal" @close="showLoginModal=false"></modal>
+    
+    <!-- Login Form-->
+
+
+    <section class="training">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-5">
+                    <p class="is-size-4 has-text-justified" id="pinfo1">Videotutoriales concisos y material de lectura completo, sistema de aportes colaborativo, puedes aportar lo que sabes en cada una de las lecciones.</p>
+                </div>
+                <div class="column is-ofset-2"></div>
+                <div class="column is-5" id="pinfo2">
+                    <p>Este proyecto surge como herramienta de apoyo que permita reforzar  conocimientos de una manera didáctica, dinámica
+                    y sencilla; dirigida a los estudiantes de 3 o 4 semestre de la carrera Ingeniería de sistemas de la Universidad de investigación
+                    y desarrollo UDI, puesto que es un contenido de gran importancia para las bases de programación.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <h3 class="title has-text-centered">
+                    Cuáles son los temas que podrás estudiar en la plataforma?
+                </h3>
+              
+            </div>
+        </div>
+    </section><hr>
+
+
+    
+    <section class="themes">
+    
+        <div class="container">
+            <div class="columns">
+                <div class="column is-5">
+                   <div class="box">
+                       <p class="has-text-centered sub2">Colas</p>
+                       <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Qué es una Cola?</li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-circle"></i>
+                            </span>Operaciones Básicas con Colas.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Ejemplo en Java y C de una cola simple.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Tipos de colas y su funcionamiento.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Ejemplo de Inserción y eliminación de una Cola en Java.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Ejemplo de Inserción y eliminación de una cola en C</li>
+                       </ul>
+                   </div>
+                   <div class="box">
+                       <p class="has-text-centered sub2">Pilas</p>
+                       <ul class="fa-ul">
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Qué es una Pila?</li>
+                        <li>
+                            <span class="fa-li">
+                                <i class="fas fa-circle"></i>
+                            </span>Operaciones Básicas con Pilas.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Ejemplo en Java y C de una pila simple.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Tipos de pilas y su funcionamiento.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Ejemplo de Inserción y eliminación de una Pila en Java.</li>
+                        <li><span class="fa-li"><i class="fas fa-circle"></i></span>Ejemplo de Inserción y eliminación de una pila en C</li>
+                       </ul>
+                   </div>
+                </div>
+                <div class="column is-7">
+                    
+                    <img src="./imagen_index3.jpg" alt="" id="imgIndex2">
+                    
+
+                </div>
+              
+            </div>
+        </div>
+
+        
+
+    </section>
+
+    <footer>
+
+        <div class="container">
+            <div class="columns">
+                <div class="column is-4">
+                    <p class="is-size-3 has-text-centered" id="pinfo3">Puedes suscribirte a las novedades de la plataforma, quisieras?</p>
+                </div>
+                <div class="column is-offset-1"></div>
+                <div class="column is-7">
+                    <form>
+                      <div class="field has-addons">
+                                    <div class="control has-icons-left has-icons-right">
+                                    <input class="input  is-large" type="email" placeholder="Ingresa tu correo">
+                                    <span class="icon is-medium is-left">
+                                        <i class="fas fa-envelope"></i>
+                                    </span>
+                                    <span class="icon is-medium is-right">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                    </div>
+                                <div class="control">
+                                    <a class="button is-primary is-large">
+                                        Enviar
+                                    </a>
+                                </div>
+                            </div>
+                       
+                    </form> 
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            
+        </div>
+
+    </footer>
+    
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="./index.js"></script>
+    
+</body>
+</html>
